@@ -21,3 +21,9 @@ function e(val) {
 		d("Error");
 	}
 }
+
+// Memory Functions
+function m() {
+	var store =	document.getElementById("d").value; 
+	
+}
