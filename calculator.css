@@ -3,7 +3,7 @@
 
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
+	background-color: blue;
 	height: 300px;
 	width:250px;
 	border-radius: 10px;
@@ -13,7 +13,7 @@
 }
 /* Display */
 .display {
-	background-color:#bfc4ce;
+	background-color: green;
 	width:220px;
 	position:relative;
 	left:15px;
@@ -25,8 +25,8 @@
 	top:2px;
 	height: 30px;
 	width:210px;
-	color:black;
-	background-color: #bccd95;
+	color:red;
+	background-color: black;
 	font-size: 21px;
 	text-align:right;
 }
@@ -49,22 +49,22 @@
 }
 
 .button.function {
-	color: white;
-	background-color: #c64f81;
+	color: black;
+	background-color: orange;
 	border-button: black 2px solid;
 	border-top:2px #6f6f6f solid;
 }
 
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: green;
 	border-bottom:black 2px solid;
 	border-top: 2px #6f6f6f solid;	
 }
 
 .button.number {
-	color: white;
-	background-color:#7091ab;
+	color: yellow;
+	background-color:grey;
 	border-bottom:black 2px solid;
 	border-top: 2px #6f6f6f solid;
 		}
