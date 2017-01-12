@@ -21,9 +21,16 @@ function e(val) {
 		d("Error");
 	}
 }
-
+var store = 0;
 // Memory Functions
 function m() {
-	var store =	document.getElementById("d").value; 
-	
+	 store = document.getElementById("d").value;
+
+}
+function ms() {
+	 document.getElementById("d").value += store;
+}
+
+function mc() {
+	store=0;
 }
