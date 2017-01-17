@@ -23,7 +23,7 @@ function e(val) {
 		d("Error");
 	}
 }
-var store = 0;
+var store = "";
 // Memory Functions
 function m() {
 	 store = document.getElementById("d").value;
@@ -34,7 +34,7 @@ function ms() {
 }
 
 function mc() {
-	store=0;
+	store="";
 }
 
 
