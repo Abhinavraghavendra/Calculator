@@ -4,7 +4,7 @@
 /* Calculator Box */
 .box {
 	background-color: blue;
-	height: 300px;
+	height: 340px;
 	width:250px;
 	border-radius: 10px;
 	position:relative;
@@ -25,7 +25,7 @@
 	top:2px;
 	height: 30px;
 	width:210px;
-	color:red;
+	color: grey;
 	background-color: black;
 	font-size: 21px;
 	text-align:right;
@@ -84,3 +84,8 @@
 	border-top:black 2px solid;
 	border-bottom: 2px #6f6f6f solid;
 }
+
+body {
+	background-image: url("images/background.jpg");
+	background-size:contain;
+	}

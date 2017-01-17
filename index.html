@@ -13,7 +13,7 @@
 <!--Add your HTML here-->
 	<div class="box">
 		<div class="display">
-			<input type="text" readonly size = "18" id = "d">
+		<input type="text" placeholder="0" readonly size="18" id="d" >
 		</div>
 			<div class = "keys">
 				<p>
@@ -43,8 +43,14 @@
 				<p>
 					<input type="button" value ="0" class="button number" onClick="v('0')">
 					<input type="button" value = "." class="button number" onClick="v('.')">
-					<input type="button" value = "C" class="button function" onClick="d('0')">
+					<input type="button" value = "C" class="button function" onClick="d('')">
 					<input type="button" value = "=" class="button operator" onClick="e()">
+				</p>
+				<p>
+					<input type="button" value ="π" class="button function" onClick="v(Math.PI)">
+					<input type="button" value ="e" class="button function" onClick="v(Math.E)">
+					<input type="button" value ="+/-" class="button operator" onClick="alert('Not Yet Implemented')">
+					<input type="button" value ="%" class="button operator" onClick="alert('Not Yet Implemented')">
 				</p>
 			</div>
 		</div>
